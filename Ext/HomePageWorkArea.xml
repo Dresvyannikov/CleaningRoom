@@ -3,7 +3,7 @@
 	<WorkingAreaTemplate>TwoColumnsEqualWidth</WorkingAreaTemplate>
 	<LeftColumn>
 		<Item>
-			<Form>Report.ИсторияЗаказов.Form.ФормаОтчета</Form>
+			<Form>2f8455d8-9bfd-4995-bf7d-5b92baac2636</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>
@@ -21,7 +21,7 @@
 	</LeftColumn>
 	<RightColumn>
 		<Item>
-			<Form>Report.ЗанятостьСотрудников.Form.ФормаОтчета</Form>
+			<Form>59e84ad1-d386-4d1c-9fa9-596cf26f903c</Form>
 			<Height>10</Height>
 			<Visibility>
 				<xr:Common>true</xr:Common>

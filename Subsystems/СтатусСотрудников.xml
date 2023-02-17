@@ -23,6 +23,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Сотрудники</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ЗанятостьСотрудников</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЖурналЗаказов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЗаборСотрудникомСредств</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОборотыСотрудников</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

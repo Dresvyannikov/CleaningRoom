@@ -3,7 +3,15 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ЭкспортТаблицы" id="59">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЭкспортТаблицы</CommandName>
+				<ExtendedTooltip name="ЭкспортТаблицыРасширеннаяПодсказка" id="60"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
 	<Events>
 		<Event name="OnOpen">ПриОткрытии</Event>
 	</Events>
@@ -112,12 +120,6 @@
 							<ContextMenu name="ПлощадьПомещенияКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ПлощадьПомещенияРасширеннаяПодсказка" id="21"/>
 						</InputField>
-						<Button name="ЭкспортТаблицы" id="59">
-							<Type>UsualButton</Type>
-							<Visible>false</Visible>
-							<CommandName>Form.Command.ЭкспортТаблицы</CommandName>
-							<ExtendedTooltip name="ЭкспортТаблицыРасширеннаяПодсказка" id="60"/>
-						</Button>
 						<Table name="Услуги" id="25">
 							<Representation>List</Representation>
 							<AutoInsertNewRow>true</AutoInsertNewRow>

@@ -22,8 +22,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Заказ</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Document.Заказы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ИсторияЗаказов</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">dedcbf98-5ab6-4646-8256-90be3d26e68b</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Клиенты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиСредств</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

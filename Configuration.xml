@@ -216,8 +216,8 @@
 			<ConfigurationInformationAddress/>
 			<DataLockControlMode>Managed</DataLockControlMode>
 			<ObjectAutonumerationMode>NotAutoFree</ObjectAutonumerationMode>
-			<ModalityUseMode>UseWithWarnings</ModalityUseMode>
-			<SynchronousPlatformExtensionAndAddInCallUseMode>UseWithWarnings</SynchronousPlatformExtensionAndAddInCallUseMode>
+			<ModalityUseMode>Use</ModalityUseMode>
+			<SynchronousPlatformExtensionAndAddInCallUseMode>Use</SynchronousPlatformExtensionAndAddInCallUseMode>
 			<InterfaceCompatibilityMode>Taxi</InterfaceCompatibilityMode>
 			<CompatibilityMode>Version8_3_13</CompatibilityMode>
 			<DefaultConstantsForm/>
@@ -257,6 +257,7 @@
 			<Catalog>Контрагенты</Catalog>
 			<Document>Заказы</Document>
 			<Document>ПоступлениеТоваровИУслуг</Document>
+			<Document>ЗаборСотрудникомСредств</Document>
 			<Enum>СтатусСотрудника</Enum>
 			<Enum>СтатусЗаказа</Enum>
 			<Enum>Пол</Enum>
@@ -265,6 +266,8 @@
 			<Report>ЗанятостьСотрудников</Report>
 			<Report>ИсторияЗаказов</Report>
 			<Report>РасчетЗП</Report>
+			<Report>ОстаткиСредств</Report>
+			<Report>ОборотыСотрудников</Report>
 			<DataProcessor>ЖурналЗаказов</DataProcessor>
 			<DataProcessor>Telegram</DataProcessor>
 			<InformationRegister>ЗанятостьСотрудников</InformationRegister>
