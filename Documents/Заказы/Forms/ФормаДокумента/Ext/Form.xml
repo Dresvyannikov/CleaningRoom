@@ -78,6 +78,11 @@
 							<ContextMenu name="СтатусСотрудникаКонтекстноеМеню" id="57"/>
 							<ExtendedTooltip name="СтатусСотрудникаРасширеннаяПодсказка" id="58"/>
 						</InputField>
+						<InputField name="ТелефонЗаказчика" id="61">
+							<DataPath>Объект.ТелефонЗаказчика</DataPath>
+							<ContextMenu name="ТелефонЗаказчикаКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ТелефонЗаказчикаРасширеннаяПодсказка" id="63"/>
+						</InputField>
 						<InputField name="СтатусЗаказа" id="13">
 							<DataPath>Объект.СтатусЗаказа</DataPath>
 							<EditMode>EnterOnInput</EditMode>
@@ -119,6 +124,9 @@
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ПлощадьПомещенияКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="ПлощадьПомещенияРасширеннаяПодсказка" id="21"/>
+							<Events>
+								<Event name="OnChange">ПлощадьПомещенияПриИзменении</Event>
+							</Events>
 						</InputField>
 						<Table name="Услуги" id="25">
 							<Representation>List</Representation>

@@ -28,7 +28,7 @@
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Забор сотрудником средств</v8:content>
+					<v8:content>Выдача сотруднику средств</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -51,7 +51,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
+			<DefaultObjectForm>Document.ЗаборСотрудникомСредств.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -160,6 +160,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="fb1cbeef-2b03-4a6a-9bd9-61ab923603a6">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаборСотрудникомСредств.Товары" category="TabularSection">

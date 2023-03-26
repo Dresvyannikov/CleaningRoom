@@ -7,22 +7,27 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Сотрудник</dataPath>
-			<field>Сотрудник</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>Занятость</dataPath>
 			<field>Занятость</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</title>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ЗанятостьСотрудниковСрезПоследних.Сотрудник КАК Сотрудник,
-	ЗанятостьСотрудниковСрезПоследних.Занятость КАК Занятость
+	Сотрудники.Ссылка КАК Сотрудник,
+	ЕСТЬNULL(ЗанятостьСотрудниковСрезПоследних.Занятость, "Свободен") КАК Занятость
 ИЗ
-	РегистрСведений.ЗанятостьСотрудников КАК ЗанятостьСотрудниковСрезПоследних</query>
+	Справочник.Сотрудники КАК Сотрудники
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЗанятостьСотрудников КАК ЗанятостьСотрудниковСрезПоследних
+		ПО (ЗанятостьСотрудниковСрезПоследних.Сотрудник = Сотрудники.Ссылка)</query>
 	</dataSet>
 	<parameter>
 		<name>Период</name>

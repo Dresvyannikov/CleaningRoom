@@ -21,6 +21,8 @@
 						<PictureField name="СсылкаНаКартинку" id="26">
 							<DataPath>СсылкаНаКартинку</DataPath>
 							<TitleLocation>None</TitleLocation>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
 							<PictureSize>AutoSize</PictureSize>
 							<Hyperlink>true</Hyperlink>
 							<ContextMenu name="СсылкаНаКартинкуКонтекстноеМеню" id="27"/>
